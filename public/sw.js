@@ -11,17 +11,17 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
-    './',
-    './index.html',
-    './css/style.css',
-    './img/favicon.ico',
-    './img/avatars/saske.png',
-    './img/avatars/naruto.png',
-    './js/app.js',
-    './js/camara-class.js',
-    './js/sw-utils.js',
-    './js/libs/plugins/mdtoast.min.js',
-    './js/libs/plugins/mdtoast.min.css'
+    // '',
+    'index.html',
+    'css/style.css',
+    'img/favicon.ico',
+    'img/avatars/saske.png',
+    'img/avatars/naruto.png',
+    'js/app.js',
+    'js/camara-class.js',
+    'js/sw-utils.js',
+    'js/libs/plugins/mdtoast.min.js',
+    'js/libs/plugins/mdtoast.min.css'
 ];
 
 const APP_SHELL_INMUTABLE = [
