@@ -1,6 +1,6 @@
 
 var url = window.location.href;
-var swLocation = '/duckalive/sw.js';
+var swLocation = '/duckalive/public/sw.js';
 
 var swReg;
 
