@@ -1,8 +1,8 @@
 // imports
 importScripts('https://cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js')
 
-importScripts('js/sw-db.js');
-importScripts('js/sw-utils.js');
+importScripts('./js/sw-db.js');
+importScripts('./js/sw-utils.js');
 
 
 const STATIC_CACHE    = 'static-v3';
@@ -11,17 +11,17 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
-    // '/',
-    'index.html',
-    'css/style.css',
-    'img/favicon.ico',
-    'img/avatars/saske.png',
-    'img/avatars/naruto.png',
-    'js/app.js',
-    'js/camara-class.js',
-    'js/sw-utils.js',
-    'js/libs/plugins/mdtoast.min.js',
-    'js/libs/plugins/mdtoast.min.css'
+    './',
+    './index.html',
+    './css/style.css',
+    './img/favicon.ico',
+    './img/avatars/saske.png',
+    './img/avatars/naruto.png',
+    './js/app.js',
+    './js/camara-class.js',
+    './js/sw-utils.js',
+    './js/libs/plugins/mdtoast.min.js',
+    './js/libs/plugins/mdtoast.min.css'
 ];
 
 const APP_SHELL_INMUTABLE = [
