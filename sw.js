@@ -15,7 +15,7 @@ const APP_SHELL = [
     'img/avatars/naruto.png',
     'img/avatars/saske.png',
     'img/avatars/vageta.png',
-    'img/avatars/saske.png',
+    'img/avatars/pumba.png',
     'js/app.js',
     'js/sw-utils.js'
 ];
