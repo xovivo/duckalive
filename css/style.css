@@ -7,7 +7,7 @@
   
   html, body {
     margin: 0px !important;
-    color: #8a8d7f;
+    color: #c0c0c0;
     font-size: 16px;
     background-color: #ffffff; 
     width: 100%;
@@ -26,9 +26,9 @@
 
 .seleccion {
   width: 100%;
-  /* margin-top: 2em; */
+  margin-top: 2em;
   display: inline-block;
-  /* margin-bottom: 6em; */
+  margin-bottom: 6em;
 }
 
 .seleccion div {
@@ -135,7 +135,6 @@
 
 .nuevo-mensaje div{
   display: inline;
-  float: left;
 }
 
 .div-img {
@@ -168,11 +167,11 @@ textarea {
 }
 
 .fab {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background-color: #000000;
   border-radius: 50%;
-  box-shadow: 0 2px 6px 0 #666;
+  box-shadow: 0 2px 6px 0 rgb(59, 59, 59);
   transition: all 0.1s ease-in-out;
 
   font-size: 30px;
@@ -236,7 +235,7 @@ textarea {
     -o-border-radius: 8px;
     border-radius: 8px;
     text-align: left;
-    /* display: inline-block;  */
+    display: inline-block; 
   }
     .bubble:hover > .over-bubble {
       opacity: 1; 
@@ -247,8 +246,7 @@ textarea {
     display: block;
     position: relative;
     padding-left: 20px;
-    vertical-align: top;
-    /* display: inline-block;  */
+    display: inline-block; 
   }
   
   .arrow {
@@ -268,7 +266,7 @@ textarea {
     width: 100%;
     display: block;
     list-style-type: none;
-    background-color: #dde1e2;
+    background-color: #ffffff;
     padding-bottom: 2em;
     padding-left: 0px;
     margin-bottom: 2em; 
@@ -282,7 +280,7 @@ textarea {
   
   .avatar {
     width: 30px;
-    /* display: inline-block; */
+    display: inline-block;
     vertical-align: top;
     position: relative;
     overflow: hidden;
@@ -306,7 +304,7 @@ textarea {
 
   .first {
     width: 100%;
-    height: 60px !important;
+    /* height: 60px !important; */
     display: inline-block;
     position: fixed;
     z-index: 999;
@@ -469,7 +467,7 @@ and (-webkit-device-pixel-ratio : 3) {
     font-size: 1.2em;
     font-weight: bold;
     font-family: 'Lato';
-    /* display: inline-block; */
+    display: inline-block;
     margin-top: .1em;
     margin-bottom: .2em;
     color: #95a5a6; 
