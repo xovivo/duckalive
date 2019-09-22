@@ -34,17 +34,70 @@
   margin-top: 2em;
 }
 
-.seleccion-avatar {
-  width: 150px;
+#ava1 {
+  width: 60px;
+  height: 60px;
+  background: url(../img/avatars/naruto.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  background-position: center;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #ecf0f1;
+  position: relative; 
+}
+#ava2 {
+  width: 60px;
+  height: 60px;
+  background: url(../img/avatars/vageta.png);
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
-  border: 5px solid #ecf0f1;
-  position: relative; 
+  border: 1px solid #ecf0f1;
+  position: relative;
 }
-
+#ava3 {
+  width: 60px;
+  height: 60px;
+  background: url(../img/avatars/saske.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #ecf0f1;
+  position: relative;
+}
+#ava4 {
+  width: 60px;
+  height: 60px;
+  background: url(../img/avatars/pumba.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #ecf0f1;
+  position: relative;
+}
 /* Modal */
 #modal { 
   position: fixed;
@@ -113,9 +166,9 @@ textarea {
 }
 
 .fab {
-  width: 70px;
-  height: 70px;
-  background-color: #3498db;
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
   border-radius: 50%;
   box-shadow: 0 2px 6px 0 #666;
   transition: all 0.1s ease-in-out;
@@ -151,7 +204,7 @@ textarea {
 .fab-photo {
   width: 50px;
   height: 50px;
-  background-color: #470494;
+  background-color: #045f94;
   border-radius: 50%;
   box-shadow: 0 2px 6px 0 #666;
   transition: all 0.1s ease-in-out;
@@ -181,7 +234,7 @@ textarea {
     -o-border-radius: 8px;
     border-radius: 8px;
     text-align: left;
-    display: inline-block; 
+    /* display: inline-block;  */
   }
     .bubble:hover > .over-bubble {
       opacity: 1; 
@@ -193,7 +246,8 @@ textarea {
     position: relative;
     padding-left: 20px;
     vertical-align: top;
-    display: inline-block; }
+    /* display: inline-block;  */
+  }
   
   .arrow {
     content: '';
@@ -221,12 +275,12 @@ textarea {
       padding: 1em 0; 
     }
     .timeline li:nth-child(even) {
-      background-color: #d3d7d8; 
+      background-color: #ffffff; 
     }
   
   .avatar {
-    width: 18%;
-    display: inline-block;
+    width: 30px;
+    /* display: inline-block; */
     vertical-align: top;
     position: relative;
     overflow: hidden;
@@ -250,13 +304,14 @@ textarea {
 
   .first {
     width: 100%;
+    height: 40px !important;
     display: block;
     position: fixed;
     z-index: 999;
     top: 0px;
 
     margin: auto;
-    background-color: #3498db;
+    background-color: #161616;
     text-shadow: #2084c7 1px 1px 0;
     padding: 1em 0 !important;
     color: white;
@@ -275,7 +330,7 @@ and (-webkit-device-pixel-ratio : 3) {
     
     #titulo, #titulo-mensaje {
       position: relative;
-      top: 10px;
+      top: -10px !important;
     }
 
     #cancel-btn {
@@ -372,7 +427,7 @@ and (-webkit-device-pixel-ratio : 3) {
     transition-timing-function: ease; }
     .icon-star:hover {
       cursor: pointer;
-      color: #f39c12; }
+      color: #eeddc2; }
   
   .icon-retweet {
     -webkit-transition-property: all;
@@ -389,7 +444,7 @@ and (-webkit-device-pixel-ratio : 3) {
     transition-timing-function: ease; }
     .icon-retweet:hover {
       cursor: pointer;
-      color: #16a085; }
+      color: #0a201c; }
   
   .icon-mail-reply {
     -webkit-transition-property: all;
@@ -406,13 +461,13 @@ and (-webkit-device-pixel-ratio : 3) {
     transition-timing-function: ease; }
     .icon-mail-reply:hover {
       cursor: pointer;
-      color: #3498db; }
+      color: #0b1d29; }
   
   h3 {
     font-size: 1.2em;
     font-weight: bold;
     font-family: 'Lato';
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: .1em;
     margin-bottom: .2em;
     color: #95a5a6; 
@@ -424,7 +479,7 @@ and (-webkit-device-pixel-ratio : 3) {
     top: 0;
     right: 1em;
     display: block;
-    background-color: #16a085;
+    background-color: #1d1f1e;
     padding: 4px;
     -moz-border-radius-bottomleft: 5px;
     -webkit-border-bottom-left-radius: 5px;
