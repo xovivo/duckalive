@@ -2,9 +2,9 @@
     "short_name": "Duck-Twittor",
     "name": "Duck-Twittor",
     "start_url": "./index.html",
-    "background_color": "#000",
-    "theme_color": "#000",
-    "display": "fullscreen",
+    "background_color": "#161616",
+    "theme_color": "#161616",
+    "display": "minimal-ui",
     "orientation": "portrait",
     "icons": [
         {
