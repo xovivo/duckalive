@@ -1,6 +1,6 @@
 
 var url = window.location.href;
-var swLocation = '/duckalive/public/sw.js';
+var swLocation = '/duckalive/sw.js';
 
 var swReg;
 
@@ -96,7 +96,7 @@ function crearMensajeHTML(mensaje, personaje, lat, lng, foto) {
 
 
         <div class="avatar">
-            <img src="img/avatars/${ personaje }.png">
+            <img src="img/avatars/${ personaje }.jpg">
         </div>
         <div class="bubble-container">
             <div class="bubble">
@@ -146,7 +146,7 @@ function crearMensajeMapa(lat, lng, personaje) {
         data-lat="${ lat }"
         data-lng="${ lng }">
                 <div class="avatar">
-                    <img src="img/avatars/${ personaje }.png">
+                    <img src="img/avatars/${ personaje }.jpg">
                 </div>
                 <div class="bubble-container">
                     <div class="bubble">
@@ -177,7 +177,7 @@ function logIn( ingreso ) {
         salirBtn.removeClass('oculto');
         timeline.removeClass('oculto');
         avatarSel.addClass('oculto');
-        modalAvatar.attr('src', 'img/avatars/' + usuario + '.png');
+        modalAvatar.attr('src', 'img/avatars/' + usuario + '.jpg');
     } else {
         nuevoBtn.addClass('oculto');
         salirBtn.addClass('oculto');
@@ -277,7 +277,7 @@ postBtn.on('click', function() {
 // Obtener mensajes del servidor
 function getMensajes() {
 
-    fetch('/api')
+    fetch('api')
         .then( res => res.json() )
         .then( posts => {
 

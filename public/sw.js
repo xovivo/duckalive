@@ -1,8 +1,8 @@
 // imports
 importScripts('https://cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js')
 
-importScripts('./js/sw-db.js');
-importScripts('./js/sw-utils.js');
+importScripts('js/sw-db.js');
+importScripts('js/sw-utils.js');
 
 
 const STATIC_CACHE    = 'static-v3';
@@ -11,12 +11,15 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
-    // '',
+    // '/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
-    'img/avatars/saske.png',
-    'img/avatars/naruto.png',
+    'img/avatars/hulk.jpg',
+    'img/avatars/ironman.jpg',
+    'img/avatars/spiderman.jpg',
+    'img/avatars/thor.jpg',
+    'img/avatars/wolverine.jpg',
     'js/app.js',
     'js/camara-class.js',
     'js/sw-utils.js',
@@ -143,7 +146,7 @@ self.addEventListener('push', e => {
     const options = {
         body: data.cuerpo,
         // icon: 'img/icons/icon-72x72.png',
-        icon: `img/avatars/${ data.usuario }.png`,
+        icon: `img/avatars/${ data.usuario }.jpg`,
         badge: 'img/favicon.ico',
         image: 'https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/5/5b/Torre_de_los_Avengers.png/revision/latest?cb=20150626220613&path-prefix=es',
         vibrate: [125,75,125,275,200,275,125,75,125,275,200,600,200,600],
@@ -157,12 +160,12 @@ self.addEventListener('push', e => {
             {
                 action: 'thor-action',
                 title: 'Thor',
-                icon: 'img/avatar/saske.png'
+                icon: 'img/avatar/thor.jpg'
             },
             {
                 action: 'ironman-action',
                 title: 'Ironman',
-                icon: 'img/avatar/pumba.png'
+                icon: 'img/avatar/ironman.jpg'
             }
         ]
     };

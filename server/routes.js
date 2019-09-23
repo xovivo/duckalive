@@ -7,7 +7,7 @@ const mensajes = [
 
   {
     _id: 'XXX',
-    user: 'saske',
+    user: 'spiderman',
     mensaje: 'Hola Mundo'
   }
 
